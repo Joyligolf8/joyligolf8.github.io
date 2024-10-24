@@ -48,7 +48,7 @@ tempor incididunt ut labore et dolore magna aliqua.
     
 Sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-## Fall 2024 
+<!-- ## Fall 2024 
 
 ##### Junior Year
 
@@ -56,7 +56,7 @@ Sunt in culpa qui officia deserunt mollit anim id est laborum.
 + M 341 – Linear Algebra
 + M 362K – Probability 1
 + MIS 375 – Strategic Information Technology Management 
-+ RS 315N – Intro To The New Testament 
++ RS 315N – Intro To The New Testament  -->
 
 
 <!-- This section reviews Romance languages. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse

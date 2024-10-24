@@ -78,8 +78,8 @@ params:
         #   url: cv.pdf
         - name: Email
           url: mailto:qingyangjoyli@gmail.com
-        # - name: Zoom
-        #   url: https://www.zoom.us/my/igelfeld
+        - name: Linkedin
+          url: https://www.linkedin.com/in/joy-li-079517178/
         # - name: Location
         #   url: location/
         # - name: Office Hours
