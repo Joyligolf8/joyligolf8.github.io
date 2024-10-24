@@ -48,9 +48,18 @@ tempor incididunt ut labore et dolore magna aliqua.
     
 Sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-## Part 1: Review of Romance languages
+## Fall 2024 
 
-This section reviews Romance languages. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+##### Junior Year
+
++ MIS 333K – Web Application Development
++ M 341 – Linear Algebra
++ M 362K – Probability 1
++ MIS 375 – Strategic Information Technology Management 
++ RS 315N – Intro To The New Testament 
+
+
+<!-- This section reviews Romance languages. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -68,7 +77,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 + [Paper 1](https://pascalmichaillat.org/1.pdf) – This is a first paper to read.
 + [Paper 2](https://pascalmichaillat.org/2.pdf) – This paper builds on the first one.
-+ [Paper 3](https://pascalmichaillat.org/4.pdf) – This paper is more complex.
++ [Paper 3](https://pascalmichaillat.org/4.pdf) – This paper is more complex. -->
 
 ## Part 2: Portugese irregular verbs
 
