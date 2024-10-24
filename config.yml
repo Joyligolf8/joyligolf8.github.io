@@ -1,5 +1,5 @@
 baseURL: "https://joyligolf8.github.io/" 
-title: Moritz-Maria von Igelfeld
+title: Qingyang (Joy) Li
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -53,46 +53,46 @@ params:
     profileMode:
           enabled: true
           title: Qingyang Li
-          subtitle: "I’m a junior at University of Texas at Austin in the Canfield Business Honors Program, double majoring in Mathematics and Management Information Systems. I enjoy playing golf and photography."
+          subtitle: "I’m a junior at The University of Texas at Austin in the Canfield Business Honors Program, double majoring in Mathematics and Management Information Systems. I enjoy playing golf and photography."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
+            - name: About
               url: papers/
-            - name: Courses
+            - name: Experience
               url: courses/
-            - name: Data
+            - name: Courses
               url: data/
-            - name: Books
+            - name: Photography
               url: books/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            # - name: Resum
+            #   url: tags/
+            # - name: Photography
+            #   url: archive/
+            - name: My Corgi 
+              url: https://www.instagram.com/corgijoseph/?hl=en
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
+        # - name: CV
+        #   url: cv.pdf
         - name: Email
-          url: mailto:moritz.maria.von.igelfeld@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@alexandermccallsmithoffici9000
-        - name: Twitter
+          url: mailto:qingyangjoyli@gmail.com
+        # - name: Zoom
+        #   url: https://www.zoom.us/my/igelfeld
+        # - name: Location
+        #   url: location/
+        # - name: Office Hours
+        #   url: officehours/
+        # - name: Instagram
+        #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+        # - name: GitHub
+        #   url: https://github.com/pmichaillat
+        # - name: Substack
+        #   url: https://pmichaillat.substack.com
+        # - name: YouTube
+        #   url: https://www.youtube.com/@alexandermccallsmithoffici9000
+        - name: Instagram
           url: https://twitter.com/McCallSmith
 
     assets:
