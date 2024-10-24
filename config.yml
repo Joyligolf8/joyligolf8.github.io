@@ -28,7 +28,7 @@ menu:
 
 params:
     description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
-    author: Moritz-Maria von Igelfeld
+    author: Qingyang Li
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -52,7 +52,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Qingyang Li
+          title: Qingyang (Joy) Li
           subtitle: "I’m a junior at The University of Texas at Austin in the Canfield Business Honors Program, double majoring in Mathematics and Management Information Systems. I enjoy playing golf and photography."
           imageUrl: "picture.jpeg"
           imageWidth: 160
@@ -60,7 +60,7 @@ params:
           buttons:
             - name: About
               url: papers/
-            - name: Experience
+            - name: Experiences
               url: courses/
             - name: Courses
               url: data/
@@ -93,7 +93,7 @@ params:
         # - name: YouTube
         #   url: https://www.youtube.com/@alexandermccallsmithoffici9000
         - name: Instagram
-          url: https://twitter.com/McCallSmith
+          url: https://www.instagram.com/joyligolf/?hl=en
 
     assets:
         disableScrollBarStyle: true
@@ -101,7 +101,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Qingyang Li"
       icon: favicon.ico
       iconHeight: 18
 
