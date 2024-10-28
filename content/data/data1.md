@@ -50,7 +50,7 @@ This dataset contains all irregular verbs in [all known Romance languages](http:
 + B A 324H - Business Communication: Honors 
 + B A 151H - Honors Lyceum in Business Administration
 + MIS 325 - Database Management 
-+ SDS 320E - Elemenets of Statistics 
++ SDS 320E - Elemenets of Statist ics 
 
 
 
