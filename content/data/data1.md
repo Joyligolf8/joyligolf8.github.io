@@ -152,7 +152,7 @@ print(f"Standard Deviation: {std_dev}")
 print(f"Minimum Value: {min_value}")
 print(f"Maximum Value: {max_value}")
 ```
-
+ 
 ---
 
 ## Description of simulation parameters
