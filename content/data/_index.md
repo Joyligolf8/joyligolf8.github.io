@@ -1,11 +1,4 @@
 <!-- ---
-title: "Data"
-description: "Datasets on various philological topics."
---- -->
-
-
-<!-- 
----
 title: "List of Irregular Verbs Across Romance Languages" 
 date: 2013-03-07
 lastmod: 2024-07-12
@@ -19,17 +12,17 @@ editPost:
 showToc: true
 disableAnchoredHeadings: false
 
----
+--- -->
 
-<!-- ## Overview -->
+<!-- ## Overview
 
-<!-- This dataset contains all irregular verbs in [all known Romance languages](http://www.alexandermccallsmith.com/series/von-igelfeld-series)—including Portugese, Spanish, French, and Italian. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
+This dataset contains all irregular verbs in [all known Romance languages](http://www.alexandermccallsmith.com/series/von-igelfeld-series)—including Portugese, Spanish, French, and Italian. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<!-- --- --> 
+--- -->
 
-## Fall 2024 
+## Junior Year
 
-##### Junior 
+##### Fall 2024
 
 + MIS 333K – Web Application Development
 + M 341 – Linear Algebra
@@ -37,9 +30,31 @@ disableAnchoredHeadings: false
 + MIS 375 – Strategic Information Technology Management 
 + RS 315N – Intro To The New Testament 
 
-## Spring 2024
+## Sophomore Year 
 
-##### Sophomore
+##### Spring 2024
+
++ O M 235H - Operations Managements: Honors
++ D S 235H - Into to Decision Science: Honors
++ ACC 312H - Fundamental Managerial Accounting: Honors 
++ MIS 373 - Technical Dimensions of Cybersecurity
++ C S 303E - Elements of Computers/Programming 
++ MIS 304 - Intro Problem Solving/Programming
++ UGS 320K - Undergraduate Research 
+
+##### Fall 2023
+
++ STA 235H - Data Science for Business Application: Honors 
++ ACC 311H - Fundamentals of Financial Accounting: Honors
++ MAN 327H - Innovation/Entrepreneurship: Honors
++ B A 324H - Business Communication: Honors 
++ B A 151H - Honors Lyceum in Business Administration
++ MIS 325 - Database Management 
++ SDS 320E - Elemenets of Statistics 
+
+
+
+<!-- ## View dataset
 
 + Irregular verbs in Portugese: [data](https://github.com/pmichaillat/feru)
 + Irregular verbs in Italian: [data](https://github.com/pmichaillat/unemployment-gap)
@@ -137,7 +152,7 @@ print(f"Standard Deviation: {std_dev}")
 print(f"Minimum Value: {min_value}")
 print(f"Maximum Value: {max_value}")
 ```
-
+ 
 ---
 
 ## Description of simulation parameters
@@ -149,4 +164,4 @@ print(f"Maximum Value: {max_value}")
 |  $\gamma$ |  $\ln(3)$ | Spanish    |  1833–1954  |      Duis officia deserunt       |
 |  $\omega$ | $10^{-4}$ | Italian    |  1930–1994  | Excepteur et dolore magna aliqua |
 |  $\sigma$ |   $1.5$   | Portuguese |  1990–2023  |         Lorem culpa qui          |
-|  $\chi^2$ |  $\pi^2$  | Portuguese |  1990–2023  |         Labore et dolore         |
+|  $\chi^2$ |  $\pi^2$  | Portuguese |  1990–2023  |         Labore et dolore         | -->
