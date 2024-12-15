@@ -1,13 +1,13 @@
 ---
 title: "2023 PGA Dell Match Play" 
-date: 2004-12-28
-lastmod: 2024-07-12
+date: 2023-03-25
+# lastmod: 2024-07-12
 tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
 # author: ["Qingyang Li", "Moritz-Maria von Igelfeld"]
 description: "for Daily Texan; 03.24.2023 - 03.25.2023 Dell Match Play" 
 # summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
 cover:
-    image: "paper2.png"
+    image: "image1.jpg"
     alt: "Dimensions of a sausage dog"
     relative: false
 # editPost:
