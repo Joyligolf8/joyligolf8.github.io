@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\content",
-    "\\content\\tags"
+    "\\public",
+    "\\public\\books",
+    "\\public\\books\\book1",
+    "\\public\\data",
+    "\\public\\data\\data1"
   ],
-  "SelectedNode": "\\content\\tags\\_index.md",
+  "SelectedNode": "\\public\\data\\data1\\index.html",
   "PreviewInSolutionExplorer": false
 }
