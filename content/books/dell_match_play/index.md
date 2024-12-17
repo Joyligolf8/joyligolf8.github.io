@@ -2,12 +2,12 @@
 title: "2023 PGA Dell Match Play" 
 date: 2023-03-25
 # lastmod: 2024-07-12
-tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
+# tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
 # author: ["Qingyang Li", "Moritz-Maria von Igelfeld"]
 description: "for Daily Texan; 03.24.2023 - 03.25.2023 Dell Match Play" 
 # summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
 cover:
-    image: "image1.jpg"
+    image: "scott1.jpg"
     alt: "Dimensions of a sausage dog"
     relative: false
 # editPost:
@@ -29,6 +29,7 @@ cover:
 ##### Event
 
 World Golf Championships - Dell Technologies Match Play
++ [Daily Texan Photo Gallery](https://thedailytexan.com/2023/03/27/photo-gallery-dell-match-play/)
 
 ---
 
@@ -41,7 +42,12 @@ World Golf Championships - Dell Technologies Match Play
 
 ![](scott1.jpg)
 
-Prinzel, Florianus, and Moritz-Maria von Igelfeld. 2004. "The Finer Points of Sausage Dogs." *Journal of Canine Science* 43 (2): 89–109. http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs.
+
+
+
+
+
+<!-- Prinzel, Florianus, and Moritz-Maria von Igelfeld. 2004. "The Finer Points of Sausage Dogs." *Journal of Canine Science* 43 (2): 89–109. http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs.
 
 ```BibTeX
 @article{PI04,
@@ -60,4 +66,4 @@ url = {http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs
 ##### Related material
 
 + [Presentation slides](presentation2.pdf)
-+ [Wikipedia entry](https://en.wikipedia.org/wiki/The_Finer_Points_of_Sausage_Dogs)
++ [Wikipedia entry](https://en.wikipedia.org/wiki/The_Finer_Points_of_Sausage_Dogs) -->

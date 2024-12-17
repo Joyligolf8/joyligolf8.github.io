@@ -59,13 +59,13 @@ params:
           imageHeight: 160
           buttons:
             - name: About
-              url: papers/
+              url: about/
             - name: Experiences
-              url: courses/
+              url: experiences/
             - name: Courses
-              url: data/
+              url: courses/
             - name: Photography
-              url: books/
+              url: photography/
             # - name: Resum
             #   url: tags/
             # - name: Photography
