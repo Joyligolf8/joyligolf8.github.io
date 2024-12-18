@@ -31,6 +31,7 @@ cover:
 World Golf Championships - Dell Technologies Match Play
 + [Daily Texan Photo Gallery](https://thedailytexan.com/2023/03/27/photo-gallery-dell-match-play/)
 
+so many cool players !
 ---
 
 <!-- ##### Figure 2: Dimensions of a sausage dog -->
@@ -43,13 +44,33 @@ World Golf Championships - Dell Technologies Match Play
 ![](scott1.jpg)
 <table>
   <tr>
-    <td><img src="scott2.jpg" alt="Scottie Scheffler" width="300"></td>
-    <td><img src="scott3.jpg" alt="Scottie Scheffler" width="300"></td>
+    <td><img src="scott2.jpg" alt="Scottie Scheffler" width="427"></td>
+    <td><img src="scott3.jpg" alt="Scottie Scheffler" width="427"></td>
+  </tr>
+</table>
+![](scott4.jpg)
+![](scott5.jpg)
+<!-- ![](scott6.jpg) -->
+![](scott7.jpg)
+<table>
+  <tr>
+    <td><img src="scott6.jpg" alt="Scottie Scheffler" width="427"></td>
+    <td><img src="scott8.jpg" alt="Scottie Scheffler" width="427"></td>
   </tr>
 </table>
 
+##### Rory McIlroy
 
-
+![](rory1.jpg)
+![](rory2.jpg)
+![](rory3.jpg)
+<table>
+  <tr>
+    <td><img src="rory4.jpg" alt="Rory McIlroy" width="427"></td>
+    <td><img src="rory5.jpg" alt="Rory McIlroy" width="427"></td>
+  </tr>
+</table>
+![](scott6.jpg)
 
 
 
