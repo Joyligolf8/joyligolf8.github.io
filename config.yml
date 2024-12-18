@@ -10,24 +10,26 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
+        - name: About
+          url: about/
           weight: 5 
-        - name: Papers
-          url: papers/
+        - name: Experiences
+          url: experiences/
           weight: 2
         - name: Courses
           url: courses/
           weight: 3
-        - name: Data
-          url: data/
+        - name: Photography
+          url: photography/
           weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        - name: My Corgi
+          url: https://www.instagram.com/corgijoseph/?hl=en
           weight: 6
 
+
+
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
+    description: "I’m a junior at The University of Texas at Austin in the Canfield Business Honors Program, double majoring in Mathematics and Management Information Systems. I enjoy playing golf and photography."
     author: Qingyang Li
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"

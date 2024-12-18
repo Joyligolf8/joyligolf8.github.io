@@ -41,6 +41,12 @@ World Golf Championships - Dell Technologies Match Play
 ##### Scottie Scheffler
 
 ![](scott1.jpg)
+<table>
+  <tr>
+    <td><img src="scott2.jpg" alt="Scottie Scheffler" width="300"></td>
+    <td><img src="scott3.jpg" alt="Scottie Scheffler" width="300"></td>
+  </tr>
+</table>
 
 
 
