@@ -20,10 +20,11 @@ This dataset contains all irregular verbs in [all known Romance languages](http:
 
 --- -->
 
-## Work
+## Work 
 
 ##### June 2024 - Present
 ### Rice University - Research Assistant
+##### June 2024 - Present
 + Strategy and Environment, Technology and Innovation
 ##### May 2024 - August 2024
 ### Shell - Software Engineering Intern
@@ -40,8 +41,17 @@ This dataset contains all irregular verbs in [all known Romance languages](http:
 + The University of Texas at Austin - Research Assistant 
 ##### Prof. Antonio Linero -->
 
-## Extracurricular 
+## Extracurricular Activities
 ### Texas Higher Education Coordinating Board - ApplyTexas Advisory Committee
+##### June 2024 - May 2026
+### University Union - Board of Directors Member
+##### April 2023 - May 2024
+### Senate of College Council - Undergraduate Research Committee
+##### August 2023 - May 2024
+### Kay Bailey Hutchison Energy Center - Student Advisory Council
+##### December 2022 - Present
+### Daily Texan - Senior Photographer
+##### August 2022 - May 2023
 
 
 <!-- 
