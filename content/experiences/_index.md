@@ -31,7 +31,7 @@ This dataset contains all irregular verbs in [all known Romance languages](http:
 ##### January 2024 - May 2024
 ### The University of Texas at Austin - Research Assistant
 + Missing Data Imputation, Geospatial & Satellite Imagery Analysis
-
+ 
 <!-- + Rice University - Research Assistant 
 ### Prof. Tommy Pan Fan 
 ##### Prof. Tommy Pan Fan 
