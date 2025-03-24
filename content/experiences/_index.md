@@ -22,15 +22,26 @@ This dataset contains all irregular verbs in [all known Romance languages](http:
 
 ## Work
 
-+ Rice University - Research Assistant 
+##### June 2024 - Present
+### Rice University - Research Assistant
++ Strategy and Environment, Technology and Innovation
+##### May 2024 - August 2024
+### Shell - Software Engineering Intern
++ AiOps & App Monitoring Tools
+##### January 2024 - May 2024
+### The University of Texas at Austin - Research Assistant
++ Missing Data Imputation, Geospatial & Satellite Imagery Analysis
+
+<!-- + Rice University - Research Assistant 
 ### Prof. Tommy Pan Fan 
 ##### Prof. Tommy Pan Fan 
 + Shell - Software Engineer Intern
 ##### AiOps & App Monitoring Tools 
 + The University of Texas at Austin - Research Assistant 
-##### Prof. Antonio Linero
+##### Prof. Antonio Linero -->
 
 ## Extracurricular 
+### Texas Higher Education Coordinating Board - ApplyTexas Advisory Committee
 
 
 <!-- 
