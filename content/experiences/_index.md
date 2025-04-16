@@ -24,6 +24,7 @@ This dataset contains all irregular verbs in [all known Romance languages](http:
 
 ##### June 2025 - August 2025
 ### Qualcomm - Incoming Summer 2025 Intern
++ Enterprise Architecture
 ##### June 2024 - Present
 ### Rice University - Research Assistant
 <!-- ##### June 2024 - Present -->

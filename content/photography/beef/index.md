@@ -1,5 +1,5 @@
 ---
-title: "2023 Beef: SXSW Red Carpet" 
+title: "2023 Beef: SXSW Red Carpet Premiere" 
 date: 2023-03-18
 # lastmod: 2024-07-12
 # tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
@@ -7,7 +7,7 @@ date: 2023-03-18
 description: "for Daily Texan; 03.18.2023 Beef" 
 # summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
 cover:
-    image: "scott1.jpg"
+    image: "ali.jpg"
     alt: "Beef cover page"
     relative: false
 # editPost:
@@ -28,60 +28,63 @@ cover:
 
 ##### Event
 
-World Golf Championships - Dell Technologies Match Play
-+ [Daily Texan Photo Gallery](https://thedailytexan.com/2023/03/27/photo-gallery-dell-match-play/)
-
+Red Carpet premiere of BEEF at SXSW 2023
 ---
 
 <!-- ##### Figure 2: Dimensions of a sausage dog -->
+<!-- 
+![](image1.jpg) -->
 
-![](image1.jpg)
 
+##### Ali Wong
 
-##### Scottie Scheffler
-
-![](scott1.jpg)
+![](ali.jpg)
 <table>
   <tr>
-    <td><img src="scott2.jpg" alt="Scottie Scheffler" width="427"></td>
-    <td><img src="scott3.jpg" alt="Scottie Scheffler" width="427"></td>
+    <td><img src="ali1.jpg" alt="Scottie Scheffler" width="427"></td>
+    <td><img src="ali2.jpg" alt="Scottie Scheffler" width="427"></td>
   </tr>
 </table>
 
-![](scott4.jpg)
+<!-- ![](scott4.jpg)
 ![](scott5.jpg)
 <!-- ![](scott6.jpg) -->
-![](scott7.jpg)
-
+<!-- ![](scott7.jpg) --> -->
+<!-- 
 <table>
   <tr>
     <td><img src="scott6.jpg" alt="Scottie Scheffler" width="427"></td>
     <td><img src="scott8.jpg" alt="Scottie Scheffler" width="427"></td>
   </tr>
-</table>
+</table> -->
 
-##### Rory McIlroy
+##### Steven Yeun
 
-![](rory1.jpg)
-![](rory2.jpg)
-![](rory3.jpg)
+![](steven.jpg)
+<!-- ![](rory2.jpg)
+![](rory3.jpg) -->
 <table>
   <tr>
-    <td><img src="rory4.jpg" alt="Rory McIlroy" width="427.44"></td>
-    <td><img src="rory5.jpg" alt="Rory McIlroy" width="427.44"></td>
+    <td><img src="steven1.jpg" alt="Rory McIlroy" width="427.44"></td>
+    <td><img src="steven2.jpg" alt="Rory McIlroy" width="427.44"></td>
   </tr>
 </table>
 
-![](rory6.jpg)
+<!-- ![](rory6.jpg) -->
 
 
-##### Jason Day 
+##### Ashley Park 
 
-![](day1.jpg)
-![](day2.jpg)
+![](ashley.jpg)
+<table>
+  <tr>
+    <td><img src="ashley1.jpg" alt="Rory McIlroy" width="427.44"></td>
+    <td><img src="ashley2.jpg" alt="Rory McIlroy" width="427.44"></td>
+  </tr>
+</table>
 
 
-##### Xander Schauffele
+<!-- ##### Xander Schauffele
  
 ![](xander1.jpg)
 
@@ -90,7 +93,7 @@ World Golf Championships - Dell Technologies Match Play
 
 ![](group1.jpg)
 ![](group2.jpg)
-![](group3.jpg)
+![](group3.jpg) -->
 
 
 <!-- Prinzel, Florianus, and Moritz-Maria von Igelfeld. 2004. "The Finer Points of Sausage Dogs." *Journal of Canine Science* 43 (2): 89–109. http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs.

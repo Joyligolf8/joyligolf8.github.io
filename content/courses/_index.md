@@ -22,46 +22,49 @@ This dataset contains all irregular verbs in [all known Romance languages](http:
 
 ## Computer Science & Technical Courses
 
-+ MIS 333K – Web Application Development 
-+ MIS 373 – Technical Dimensions of Cybersecurity 
-+ MIS 325 – Database Management
-+ C S 303E – Elements of Computers/Programming
-+ MIS 304 – Intro to Problem Solving/Programming
++ Web Application Development 
++ Technical Dimensions of Cybersecurity 
++ Database Management
++ Elements of Computers/Programming
++ Intro to Problem Solving/Programming
 
 ## Mathematics Courses  
 
-+ M 341 – Linear Algebra and Matrix Theory 
-+ M 362K – Probability I
-+ STA 235H – Data Science for Business Applications: Honors
-+ SDS 320E – Elements of Statistics
-+ STA 301 – Introduction to Data Science 
++ Differential Equations with Linear Algebra 
++ Linear Algebra and Matrix Theory 
++ Numerical Analysis 
++ Probability 
++ Applied Statistics
++ Data Science for Business Applications: Honors
++ Elements of Statistics
++ Introduction to Data Science 
 
 ## Business Courses  
 
 ##### Management 
 
-+ O M 235H – Operations Management: Honors
-+ MAN 327H - Innovation/Entrepreneurship: Honors
-+ MIS 375 – Strategic Information Technology Management
++ Operations Management: Honors
++ Innovation/Entrepreneurship: Honors
++ Strategic Information Technology Management
 
 ##### Accounting + Finance 
 
-+ ACC 311H – Fundamentals of Financial Accounting: Honors
-+ ACC 312H – Fundamental Managerial Accounting: Honors
++ Fundamentals of Financial Accounting: Honors
++ Fundamental Managerial Accounting: Honors
 
 ##### Communication & Professional Development
 
-+ B A 324H – Business Communication: Oral/Written: Honors
-+ B A 151H – Honors Lyceum in Business Administration
++ Business Communication: Oral/Written: Honors
++ Honors Lyceum in Business Administration
 
 ## Random Fun Electives
 
 ##### ⋆｡‧˚ʚ♡ɞ˚‧｡⋆
 
-+ UGS 303 – Sleep: Are We Getting Enough?
-+ MUS 307 – Jazz Appreciation
-+ R S 310 – Intro to the Study of Religion
-+ R S 315N – Intro to the New Testament
++ Sleep: Are We Getting Enough?
++ Jazz Appreciation
++ Intro to the Study of Religion
++ Intro to the New Testament
 
 
 <!-- ## Junior Year
