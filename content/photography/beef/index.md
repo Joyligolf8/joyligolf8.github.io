@@ -41,22 +41,11 @@ Red Carpet premiere of BEEF at SXSW 2023
 ![](ali.jpg)
 <table>
   <tr>
-    <td><img src="ali1.jpg" alt="Scottie Scheffler" width="427"></td>
-    <td><img src="ali2.jpg" alt="Scottie Scheffler" width="427"></td>
+    <td><img src="ali1.jpg" alt="Ali Wong" width="427"></td>
+    <td><img src="ali2.jpg" alt="Ali Wong" width="427"></td>
   </tr>
 </table>
 
-<!-- ![](scott4.jpg)
-![](scott5.jpg)
-<!-- ![](scott6.jpg) -->
-<!-- ![](scott7.jpg) --> -->
-<!-- 
-<table>
-  <tr>
-    <td><img src="scott6.jpg" alt="Scottie Scheffler" width="427"></td>
-    <td><img src="scott8.jpg" alt="Scottie Scheffler" width="427"></td>
-  </tr>
-</table> -->
 
 ##### Steven Yeun
 
@@ -65,8 +54,8 @@ Red Carpet premiere of BEEF at SXSW 2023
 ![](rory3.jpg) -->
 <table>
   <tr>
-    <td><img src="steven1.jpg" alt="Rory McIlroy" width="427.44"></td>
-    <td><img src="steven2.jpg" alt="Rory McIlroy" width="427.44"></td>
+    <td><img src="steven1.jpg" alt="Steven Yeun" width="427.44"></td>
+    <td><img src="steven2.jpg" alt="Steven Yeun" width="427.44"></td>
   </tr>
 </table>
 
@@ -78,8 +67,8 @@ Red Carpet premiere of BEEF at SXSW 2023
 ![](ashley.jpg)
 <table>
   <tr>
-    <td><img src="ashley1.jpg" alt="Rory McIlroy" width="427.44"></td>
-    <td><img src="ashley2.jpg" alt="Rory McIlroy" width="427.44"></td>
+    <td><img src="ashley1.jpg" alt="Ashley Park" width="427.44"></td>
+    <td><img src="ashley2.jpg" alt="Ashley Park" width="427.44"></td>
   </tr>
 </table>
 

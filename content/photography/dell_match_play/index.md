@@ -78,7 +78,12 @@ World Golf Championships - Dell Technologies Match Play
 ##### Jason Day 
 
 ![](day1.jpg)
-![](day2.jpg)
+<table>
+  <tr>
+    <td><img src="day3.jpg" alt="Jason Day" width="427.44"></td>
+    <td><img src="day2.jpg" alt="Jason Day" width="427.44"></td>
+  </tr>
+</table>
 
 
 ##### Xander Schauffele
