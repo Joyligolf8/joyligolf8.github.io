@@ -13,7 +13,7 @@ cover:
 
 
 
-![](1.jpg)
+# ![](1.jpg)
 <table>
   <tr>
     <td><img src="2.jpg" alt="Ali Wong" width="427"></td>
