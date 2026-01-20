@@ -1,0 +1,942 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qingyang Li - Data Engineering Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #5E6AD2;
+            --primary-light: #8B92E8;
+            --text: #0D0E12;
+            --text-secondary: #67687B;
+            --bg: #FFFFFF;
+            --bg-secondary: #F7F8F9;
+            --border: #E6E7EB;
+            --accent: #4F46E5;
+        }
+
+        body {
+            font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--bg);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 32px;
+        }
+
+        /* Header */
+        header {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: saturate(180%) blur(20px);
+            padding: 16px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            border-bottom: 1px solid var(--border);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text);
+            letter-spacing: -0.01em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+            font-size: 14px;
+        }
+
+        .nav-links a:hover {
+            color: var(--text);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 160px 0 120px;
+            background: linear-gradient(180deg, var(--bg) 0%, var(--bg-secondary) 100%);
+            margin-top: 57px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 1400px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(94, 106, 210, 0.08) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 72px;
+            font-weight: 700;
+            color: var(--text);
+            letter-spacing: -0.04em;
+            line-height: 1.1;
+            margin-bottom: 24px;
+        }
+
+        .hero .subtitle {
+            font-size: 20px;
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+        }
+
+        .hero .bio {
+            font-size: 18px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 40px;
+            max-width: 640px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--accent);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(94, 106, 210, 0.25);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--text);
+            transform: translateY(-1px);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 120px 0;
+        }
+
+        section h2 {
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 56px;
+            letter-spacing: -0.03em;
+            text-align: center;
+        }
+
+        .section-intro {
+            max-width: 720px;
+            margin: 0 auto;
+            font-size: 18px;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            text-align: center;
+        }
+
+        .section-intro p + p {
+            margin-top: 16px;
+        }
+
+        /* Card Styles */
+        .card {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 32px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .card:hover {
+            border-color: var(--primary);
+            box-shadow: 0 12px 40px rgba(94, 106, 210, 0.12);
+            transform: translateY(-4px);
+        }
+
+        /* Navigation Page */
+        .page {
+            display: none;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        /* Experience Grid */
+        .experience-grid {
+            display: grid;
+            gap: 24px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .experience-card {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 32px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 24px;
+        }
+
+        .experience-card:hover {
+            border-color: var(--primary);
+            box-shadow: 0 12px 40px rgba(94, 106, 210, 0.12);
+            transform: translateY(-4px);
+        }
+
+        .company-logo {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-light));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 700;
+            color: white;
+            flex-shrink: 0;
+        }
+
+        .experience-content h3 {
+            color: var(--text);
+            font-size: 20px;
+            margin-bottom: 4px;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+        }
+
+        .role {
+            color: var(--primary);
+            font-weight: 500;
+            font-size: 15px;
+            margin-bottom: 4px;
+        }
+
+        .date-location {
+            color: var(--text-secondary);
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
+
+        .achievements {
+            list-style: none;
+        }
+
+        .achievements li {
+            padding: 8px 0;
+            padding-left: 24px;
+            position: relative;
+            color: var(--text-secondary);
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .achievements li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .impact-tags {
+            display: flex;
+            gap: 8px;
+            margin-top: 16px;
+            flex-wrap: wrap;
+        }
+
+        .impact-tag {
+            background: var(--bg-secondary);
+            color: var(--primary);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+            border: 1px solid var(--border);
+        }
+
+        /* Projects Grid */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 24px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .project-card {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 32px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .project-card:hover {
+            border-color: var(--primary);
+            box-shadow: 0 12px 40px rgba(94, 106, 210, 0.12);
+            transform: translateY(-4px);
+        }
+
+        .project-card h3 {
+            color: var(--text);
+            margin-bottom: 8px;
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+        }
+
+        .project-meta {
+            color: var(--primary);
+            font-size: 13px;
+            margin-bottom: 16px;
+            font-weight: 500;
+        }
+
+        .project-card p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 20px 0;
+        }
+
+        .tech-tag {
+            background: var(--bg-secondary);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            color: var(--text);
+            border: 1px solid var(--border);
+            font-weight: 500;
+        }
+
+        /* Skills Grid */
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .skill-category {
+            background: var(--bg);
+            padding: 32px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .skill-category:hover {
+            border-color: var(--primary);
+            box-shadow: 0 12px 40px rgba(94, 106, 210, 0.12);
+        }
+
+        .skill-category h3 {
+            color: var(--text);
+            margin-bottom: 20px;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .skill-category ul {
+            list-style: none;
+        }
+
+        .skill-category li {
+            padding: 10px 0;
+            color: var(--text-secondary);
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        /* Photography Grid */
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .photo-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            cursor: pointer;
+            aspect-ratio: 4/3;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .photo-item:hover {
+            border-color: var(--primary);
+            box-shadow: 0 12px 40px rgba(94, 106, 210, 0.12);
+            transform: translateY(-4px);
+        }
+
+        .photo-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .photo-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .photo-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+            padding: 24px;
+            color: white;
+            transform: translateY(100%);
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .photo-item:hover .photo-overlay {
+            transform: translateY(0);
+        }
+
+        .photo-overlay h4 {
+            font-size: 16px;
+            margin-bottom: 4px;
+            font-weight: 600;
+        }
+
+        .photo-overlay p {
+            font-size: 13px;
+            opacity: 0.9;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            max-width: 90%;
+            max-height: 90%;
+            position: relative;
+        }
+
+        .modal-content img {
+            max-width: 100%;
+            max-height: 90vh;
+            border-radius: 12px;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: -48px;
+            right: 0;
+            color: white;
+            font-size: 32px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 8px;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        }
+
+        .modal-close:hover {
+            opacity: 1;
+        }
+
+        /* Contact Section */
+        .contact {
+            background: var(--bg-secondary);
+        }
+
+        .contact-content {
+            max-width: 640px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contact-content p {
+            font-size: 18px;
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+            line-height: 1.6;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .contact-links a {
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.2s;
+            font-size: 14px;
+        }
+
+        .contact-links a:hover {
+            background: var(--accent);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(94, 106, 210, 0.25);
+        }
+
+        footer {
+            background: var(--bg);
+            color: var(--text-secondary);
+            text-align: center;
+            padding: 48px 0;
+            border-top: 1px solid var(--border);
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 48px;
+            }
+
+            .nav-links {
+                gap: 20px;
+                font-size: 13px;
+            }
+
+            section h2 {
+                font-size: 36px;
+            }
+
+            .experience-card {
+                grid-template-columns: 1fr;
+            }
+
+            .photo-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                padding: 0 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Portfolio Page -->
+    <div class="page active" id="main-page">
+        <header>
+            <nav class="container">
+                <div class="logo">Qingyang Li</div>
+                <ul class="nav-links">
+                    <li><a href="#" onclick="navigateTo('experience')">Experience</a></li>
+                    <li><a href="#" onclick="navigateTo('projects')">Projects</a></li>
+                    <li><a href="#" onclick="navigateTo('photography')">Photography</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Qingyang Li</h1>
+                    <p class="subtitle">Data Engineering & Analytics</p>
+                    <p class="bio">BBA in MIS & Mathematics @ UT Austin | Incoming Data & Analytics Intern @ Cheniere Energy | Passionate about building scalable data solutions and driving business insights through analytics</p>
+                    <div class="cta-buttons">
+                        <a href="#" onclick="navigateTo('experience')" class="btn btn-primary">View Experience</a>
+                        <a href="#" onclick="navigateTo('projects')" class="btn btn-primary">View Projects</a>
+                        <a href="#" onclick="navigateTo('photography')" class="btn btn-primary">View Photography</a>
+                        <a href="mailto:qingyangjoyli@gmail.com" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="section-intro">
+                    <p>I'm a senior at UT Austin pursuing a triple major in Management Information Systems, Mathematics, and Business Honors with a 3.96 GPA. My passion lies in transforming complex data into actionable insights through robust data engineering and analytics solutions.</p>
+                    <p>With hands-on experience at Qualcomm, Shell, and upcoming work at Cheniere Energy, I specialize in building ETL pipelines, creating business intelligence dashboards, and optimizing data architectures that drive measurable business value. I'm particularly interested in applying machine learning and statistical methods to operations, risk analysis, and quantitative finance.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Skills & Technologies</h2>
+                
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>C#</li>
+                            <li>R / RStudio</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Data Engineering</h3>
+                        <ul>
+                            <li>ETL Pipeline Development</li>
+                            <li>Databricks / Delta Lake</li>
+                            <li>Azure Functions</li>
+                            <li>Data Integration</li>
+                            <li>Selenium</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Databases & Cloud</h3>
+                        <ul>
+                            <li>SQL Server</li>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                            <li>Snowflake</li>
+                            <li>Azure</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Analytics & BI Tools</h3>
+                        <ul>
+                            <li>Tableau</li>
+                            <li>Power BI</li>
+                            <li>Grafana</li>
+                            <li>MS Excel (Advanced)</li>
+                            <li>Dynatrace</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Machine Learning</h3>
+                        <ul>
+                            <li>Deep Learning (GANs, VAEs)</li>
+                            <li>Clustering Analysis</li>
+                            <li>Geospatial Analytics</li>
+                            <li>Statistical Modeling</li>
+                            <li>Model Evaluation</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Certifications</h3>
+                        <ul>
+                            <li>Databricks Data Engineer Associate (2025)</li>
+                            <li>AWS Certified AI Practitioner (2025)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <h2>Let's Connect</h2>
+                    <p>I'm actively seeking full-time opportunities in data engineering, analytics, and machine learning starting in 2026.</p>
+                    <div class="contact-links">
+                        <a href="mailto:qingyangjoyli@gmail.com">Email</a>
+                        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                        <a href="tel:+18329685028">Phone</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>© 2026 Qingyang Li. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Experience Page -->
+    <div class="page" id="experience-page">
+        <header>
+            <nav class="container">
+                <div class="logo">Qingyang Li</div>
+                <ul class="nav-links">
+                    <li><a href="#" onclick="navigateTo('main')">Home</a></li>
+                    <li><a href="#" onclick="navigateTo('projects')">Projects</a></li>
+                    <li><a href="#" onclick="navigateTo('photography')">Photography</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section style="margin-top: 120px;">
+            <div class="container">
+                <h2>Professional Experience</h2>
+                
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <div class="company-logo">CE</div>
+                        <div class="experience-content">
+                            <h3>Cheniere Energy</h3>
+                            <p class="role">IT Enterprise Data & Analytics Intern</p>
+                            <p class="date-location">May 2026 - August 2026 | Houston, TX</p>
+                            <ul class="achievements">
+                                <li>Selected for Enterprise Analytics internship supporting SQL-driven data integration and backend optimization</li>
+                                <li>Designing business intelligence dashboards in Tableau to drive advanced analytics use cases</li>
+                                <li>Collaborating with cross-functional teams to enhance data governance frameworks</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="company-logo">Q</div>
+                        <div class="experience-content">
+                            <h3>Qualcomm</h3>
+                            <p class="role">Data Engineering Intern</p>
+                            <p class="date-location">June 2025 - August 2025 | San Diego, CA</p>
+                            <ul class="achievements">
+                                <li>Architected ETL pipeline in Python processing 50K+ records from 15+ enterprise sources into Delta Lake</li>
+                                <li>Developed multi-layered Power BI dashboards shortening reporting cycles from 2-3 days to under 1 day</li>
+                                <li>Consolidated fragmented systems into Databricks, eliminating 150-200 modeling licenses</li>
+                            </ul>
+                            <div class="impact-tags">
+                                <span class="impact-tag">95-98% faster retrieval</span>
+                                <span class="impact-tag">$300K+ annual value</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="company-logo">S</div>
+                        <div class="experience-content">
+                            <h3>Shell</h3>
+                            <p class="role">Software Engineering Intern</p>
+                            <p class="date-location">May 2024 - August 2024 | Houston, TX</p>
+                            <ul class="achievements">
+                                <li>Optimized data processing by converting functions from timer triggers to HTTP endpoints</li>
+                                <li>Automated user activity tracking via Dynatrace API-powered Azure function for 100+ users</li>
+                                <li>Built observability dashboards aggregating 50K+ incident records for real-time monitoring</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="company-logo">RU</div>
+                        <div class="experience-content">
+                            <h3>Rice University</h3>
+                            <p class="role">Research Assistant</p>
+                            <p class="date-location">June 2024 - May 2025 | Houston, TX</p>
+                            <ul class="achievements">
+                                <li>Designed Python web scraping tool extracting structured data for 1,500+ video games</li>
+                                <li>Analyzed platform evolution using clustering and visualization to identify market patterns</li>
+                                <li>Synthesized research on strategic market entry and innovation diffusion</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="company-logo">UT</div>
+                        <div class="experience-content">
+                            <h3>UT Austin - Machine Learning Lab</h3>
+                            <p class="role">Research Assistant</p>
+                            <p class="date-location">January 2024 - May 2024 | Austin, TX</p>
+                            <ul class="achievements">
+                                <li>Implemented deep generative models (GANs, VAEs) for missing data imputation</li>
+                                <li>Applied geospatial analytics using Python ML tools for disaster impact mapping</li>
+                                <li>Contributed to model interpretability research and ethical considerations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>© 2026 Qingyang Li. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Projects Page -->
+    <div class="page" id="projects-page">
+        <header>
+            <nav class="container">
+                <div class="logo">Qingyang Li</div>
+                <ul class="nav-links">
+                    <li><a href="#" onclick="navigateTo('main')">Home</a></li>
+                    <li><a href="#" onclick="navigateTo('experience')">Experience</a></li>
+                    <li><a href="#" onclick="navigateTo('photography')">Photography</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section style="margin-top: 120px;">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Storm Guard CRM Solution</h3>
+                        <p class="project-meta">Solution Architect | Aug 2025 - Dec 2025</p>
+                        <p>Designed end-to-end workflows in Acculynx CRM to streamline customer experience and operational processes for roofing company in South West Austin.</p>
+                        <ul class="achievements">
+                            <li>Developed KPI dashboards tracking efficiency and team productivity</li>
+                            <li>Built integrated checklists improving accuracy and profitability</li>
+                            <li>Automated repetitive tasks saving time and improving consistency</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Acculynx CRM</span>
+                            <span class="tech-tag">Workflow Design</span>
+                            <span class="tech-tag">Dashboards</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Lodging Marketplace Platform</h3>
+                        <p class="project-meta">First Place - MIS 333K | Aug 2024 - Dec 2024</p>
+                        <p>Developed full-stack ASP.NET MVC web application for Austin vacation rentals, ranked first among 27 teams.</p>
+                        <ul class="achievements">
+                            <li>Architected reservation, review, and dispute-resolution modules</li>
+                            <li>Implemented authentication controls and dynamic interfaces</li>
+                            <li>Designed optimized SQL Server database schema for scalability</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">ASP.NET MVC</span>
+                            <span class="tech-tag">SQL Server</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Video Game Platform Analytics</h3>
+                        <p class="project-meta">Rice University Research | Jun 2024 - May 2025</p>
+                        <p>Built comprehensive data pipeline and analytical framework to study platform evolution and market entry strategies in the gaming industry.</p>
+                        <ul class="achievements">
+                            <li>Scraped and processed 1,500+ video game records with Python</li>
+                            <li>Performed clustering analysis and timeline visualization</li>
+                            <li>Connected empirical findings to theoretical frameworks</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Selenium</span>
+                            <span class="tech-tag">Data Analysis</span>
+                            <span class="tech-tag">Visualization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>© 2026 Qingyang Li. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Photography Page -->
+    <div class="page" id="photography-page">
